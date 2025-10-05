@@ -13,20 +13,20 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '21484'))
-API_HASH = environ.get('API_HASH', 'db6286a041adf07ef4244e')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7807I9ygow9sLqNQuI7hsWPm5FLNfBr9c')
+API_ID = int(environ.get('API_ID', '24245556'))
+API_HASH = environ.get('API_HASH', 'aacaf8b9b624c074b117c9653626fb2d')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8337862151:AAFWXJj9bEw6OsDpW8glqUGM0-c624GdmsY')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5016109398').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Innocent_babe_dead") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002190681742'))
+USERNAME = environ.get('USERNAME', "https://t.me/Avezgojo_77") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002837315173'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+K2kgCBgaat80YWQ9')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002190681742').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '--1003111217975').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv:learningbajority&appName=learningbots")
-DATABASE_NAME = environ.get('DATABASE_NAME', "learningbots")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mdavezb77_db_user:IDoVqbrWarWfFceJ@mdavez7.jxzup5n.mongodb.net/?retryWrites=true&w=majority&appName=Mdavez7")
+DATABASE_NAME = environ.get('DATABASE_NAME', "mdavezb77_db_user")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -46,12 +46,12 @@ IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'omegalinks.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'omegalinks.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'omegalinks.in')
+SHORTENER_API = environ.get("SHORTENER_API", "45a5bf9a2bfc66e42b4f6ab2a74749f0c7bdf3ba")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'https://shortxlinks.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "45a5bf9a2bfc66e42b4f6ab2a74749f0c7bdf3ba")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'https://shortxlinks.com')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "45a5bf9a2bfc66e42b4f6ab2a74749f0c7bdf3ba")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'https://shortxlinks.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
