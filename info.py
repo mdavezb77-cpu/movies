@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '24245556'))
 API_HASH = environ.get('API_HASH', 'aacaf8b9b624c074b117c9653626fb2d')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7193524965:AAEagQ9CgFm1X32_6WmscyrJn9JdxytMDks')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8314562821:AAFF3Ydqjmf-JRHU4efMXeXKl0hXV_A7I4o')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6033503442').split()]
@@ -25,8 +25,8 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+3gdc0aat_lFmMG
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003111217975').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mdavezb77_db_user:<IDoVqbrWarWfFceJ>@mdavez7.jxzup5n.mongodb.net/")
-DATABASE_NAME = environ.get('DATABASE_NAME', "mdavezb77_db_user")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mdavezb77_db_user:no-lbiggestloser@#$_74@moviebot7.xihdg5h.mongodb.net/?appName=Moviebot7")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Moviebot7")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
